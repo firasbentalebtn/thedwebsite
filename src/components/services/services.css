@@ -3,6 +3,9 @@
   grid-template-columns: repeat(3,1fr) ;
   gap: 3rem;
 }
+#services h2{
+  font-size: 2.2rem;
+}
 .service{
   background: var(--bg-color-variant);
   border-radius: 0 0 2rem 2rem;

@@ -18,7 +18,9 @@
   overflow: hidden;
   width: 160%;
 }
-
+#about h2{
+font-size: 2.2rem;
+}
 
 
 .about__cards {

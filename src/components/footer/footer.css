@@ -21,6 +21,12 @@ footer a{
   gap: 2rem;
   margin: 0 auto 3rem;
 }
+.permalinks li a{
+  color: #ccc;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
 .footer__socials{
   display: flex;
   justify-content: center;
@@ -33,16 +39,20 @@ footer a{
   padding: 0.8rem;
   border-radius: .7rem;
   display: flex;
+  font-size: 1.4rem;
   border: 1px solid transparent;
 }
 .footer__socials a:hover{
-  background: transparent;
-  color: var(--bg-color);
-  border-color: var(--bg-color);
+  background: var(--color-white);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
 }
-.footer__copyright small{
-  margin-bottom: 4rem;
-  color: #333;
+.footer__copyrights{
+  margin-top: 5rem;
+}
+.footer__copyrights small{
+  color: #ccc;
+  font-size: 1.2rem ;
 }
 /* ============= Media querry (Small)==============*/
 @media screen and (max-width: 600px) {

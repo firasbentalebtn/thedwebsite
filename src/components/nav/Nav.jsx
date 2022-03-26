@@ -1,9 +1,9 @@
 import React from "react";
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
-import { AiOutlineUser } from "react-icons/ai";
-import { BiBook } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+import { BiDollar } from "react-icons/bi";
+import { RiRoadMapLine } from "react-icons/ri";
+import { GiConsoleController } from "react-icons/gi";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
 const Nav = () => {
@@ -14,14 +14,14 @@ const Nav = () => {
         <AiOutlineHome />
       </a>
       <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about'? 'active' : ''}>
-        <AiOutlineUser />
+        <BiDollar />
       </a>
 
       <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services'? 'active' : ''}>
-        <RiServiceLine />
+        <GiConsoleController />
       </a>
       <a href="#roadmap" onClick={() => setActiveNav('#roadmap')} className={activeNav === '#roadmap'? 'active' : ''}>
-        <BiBook />
+        <RiRoadMapLine />
       </a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact'? 'active' : ''}>
         <BiMessageSquareDetail />

@@ -1,7 +1,12 @@
 .container.roadmap__container {
   width: 40%;
 }
-
+#roadmap h5{
+  font-size: 1rem;
+}
+#roadmap h2{
+  font-size: 2.2rem;
+}
 .roadmap__avatar {
   width: 4rem;
   aspect-ratio: 1/1;

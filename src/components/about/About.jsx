@@ -9,7 +9,7 @@ import Whitepaper from "../../assets/whitepaper.pdf";
 const About = () => {
   return (
     <section id="about">
-      <h2>About theerineum</h2>
+      <h2>About Theerineum</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">

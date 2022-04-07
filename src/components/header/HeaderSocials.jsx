@@ -5,15 +5,15 @@ import { FaDiscord } from "react-icons/fa";
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="https://linkedin.com">
+      <a href="https://t.me/+9mi8fwFEQxUxMGQ0" target="_blank" rel="noreferrer">
         {" "}
         <BsTelegram />
       </a>
-      <a href="https://github.com">
+      <a href="https://twitter.com/theerineumcoin" target="_blank" rel="noreferrer">
         {" "}
         <AiFillTwitterCircle />
       </a>
-      <a href="https://behance.com">
+      <a href="https://discord.gg/eQvXzwAuBX" target="_blank" rel="noreferrer">
         {" "}
         <FaDiscord />
       </a>

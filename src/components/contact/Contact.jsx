@@ -27,18 +27,18 @@ const Contact = () => {
           <MdOutlineEmail className="contact__option-icon" />
           <h4>Email</h4>
           <h5>contact@theerineum.com</h5>
-          <a href="mailto:dummyegator@gmail.com" target='_blank' rel="noreferrer">Send a Message </a>
+          <a href="mailto:contact@theerineum.com" target='_blank' rel="noreferrer">Send a Message </a>
         </article>
         <article className="contact__option">
           <BsTelegram className="contact__option-icon" />
           <h4>Telegram</h4>
-          <a href="https://m.me/firas.bt.5" target='_blank' rel="noreferrer">Send a Message </a>
+          <a href="https://t.me/+9mi8fwFEQxUxMGQ0" target='_blank' rel="noreferrer">Send a Message </a>
         </article>
         <article className="contact__option">
           <FaDiscord className="contact__option-icon" />
           <h4>Discord</h4>
 
-          <a href="https://api.whatsapp.com/send?phone=+21627773500 " target='_blank' rel="noreferrer">Send a Message </a>
+          <a href="https://discord.gg/eQvXzwAuBX " target='_blank' rel="noreferrer">Send a Message </a>
         </article>
       </div>
       {/**form starts */}

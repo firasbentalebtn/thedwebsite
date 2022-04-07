@@ -4,6 +4,10 @@ import ME from "../../assets/chart.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { FaGamepad } from "react-icons/fa";
+import { GiGrowth } from "react-icons/gi";
+import { RiSafe2Line } from "react-icons/ri";
+
 import Whitepaper from "../../assets/whitepaper.pdf";
 
 const About = () => {
@@ -34,6 +38,28 @@ const About = () => {
               <small>1,000,000,000</small>
             </article>
           </div>
+          <br />
+          <div className="hr__line"></div>
+          <br />
+          {/* Token Distrobution */}
+          <div className="about__cards">
+            <article className="about__card">
+              <FaGamepad className="about__icon" />
+              <h5>Game Ecosystem:</h5>
+              <small>30%</small>
+            </article>
+            <article className="about__card">
+              <GiGrowth className="about__icon" />
+              <h5>Marketing</h5>
+              <small>5% </small>
+            </article>
+            <article className="about__card">
+              <RiSafe2Line className="about__icon" />
+              <h5>Liquidity lock:</h5>
+              <small>10%</small>
+            </article>
+          </div>
+          
           <p>
           Check the Whitepaper for more detailed informations
 
@@ -43,6 +69,7 @@ const About = () => {
             WhitePaper
           </a>
         </div>
+        
       </div>
     </section>
   );

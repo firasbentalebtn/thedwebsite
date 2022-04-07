@@ -21,9 +21,9 @@ const Footer = () => {
 
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com"> <BsTelegram/></a>
-        <a href="https://linkedin.com"> <AiFillTwitterCircle/></a>
-        <a href="https://github.com"><FaDiscord/></a>
+        <a href="https://t.me/+9mi8fwFEQxUxMGQ0" target='_blank' rel="noreferrer"> <BsTelegram/></a>
+        <a href="https://twitter.com/theerineumcoin" target='_blank' rel="noreferrer"> <AiFillTwitterCircle/></a>
+        <a href="https://discord.gg/eQvXzwAuBX" target='_blank' rel="noreferrer"><FaDiscord/></a>
 
       </div>
       <div className="footer__copyrights">
